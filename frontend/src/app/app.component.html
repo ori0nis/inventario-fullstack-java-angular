@@ -1,0 +1,26 @@
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #8C0AEF;">
+        <div class="container-fluid">
+          <a class="navbar-brand" routerLink="productos">Sistema de Inventarios</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" routerLink="productos" routerLinkActive="active">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="agregar-producto" routerLinkActive="active">Agregar producto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</div>
+<!-- Podemos incluir este componente directamente o a través de la ruta -->
+<!-- <app-producto-lista></app-producto-lista> -->
+ <div class="container">
+    <!-- Con esto, cada petición responde al router que corresponda cada vez -->
+    <router-outlet></router-outlet>
+ </div>

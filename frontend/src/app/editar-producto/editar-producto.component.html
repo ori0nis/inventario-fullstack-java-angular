@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="container text-center" style="margin: 30px">
+        <h3>Editar Producto</h3>
+    </div>
+    <!-- Cuando nuestro formulario haga submit, se hace submit en nuestra clase asociada de typescript. Esto se conoce como two way binding y sirve para que siempre se sincronice lo que pasa en la vista con la clase y viceversa -->
+    <form (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+          <label for="descripcion" class="form-label">Nombre del producto</label>
+          <input type="text" class="form-control" id="descripcion" name="nombre" required="true"
+          [(ngModel)]="producto.nombre">
+        </div>
+        <div class="mb-3">
+          <label for="precio" class="form-label">Precio</label>
+          <input type="number" step="any" class="form-control" id="precio" name="precio"
+          [(ngModel)]="producto.precio">
+        </div>
+        <div class="mb-3">
+            <label for="existencias" class="form-label">Existencias</label>
+            <input type="number" class="form-control" id="existencias" name="existencias"
+            [(ngModel)]="producto.existencias">
+          </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-warning btn-sm me-3">Aceptar</button>
+            <a href="/" class="btn btn-danger btn-sm">Cancelar</a>
+        </div>
+      </form>
+</div>
+
