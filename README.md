@@ -6,7 +6,7 @@ Sistema de Inventarios is a very simple web app that manages products that are a
 
 I had a lot of fun coding this project, and it helped me realize just how fun web programming is, and how much I love it!
 
-Sistema de Inventarios was also my first project that required learning how to use ![Postman](https://img.shields.io/badge/Postman-orange.svg?style=flat&logo=postman&logoColor=white)
+Sistema de Inventarios was also my first project that required learning how to use ![Postman](https://img.shields.io/badge/Postman-orange.svg?style=flat&logo=postman&logoColor=white), and also, how to code ![TypeScript](https://img.shields.io/badge/TypeScript-blue.svg?style=flat&logo=typescript&logoColor=white)
 
 This app was created following Ubaldo Acosta's lead during his "Universidad Java" masterclass.
 
