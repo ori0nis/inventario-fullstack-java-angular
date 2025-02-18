@@ -8,8 +8,6 @@ I had a lot of fun coding this project, and it helped me realize just how fun we
 
 Sistema de Inventarios was also my first project that required learning how to use ![Postman](https://img.shields.io/badge/Postman-orange.svg?style=flat&logo=postman&logoColor=white), and also, how to code ![TypeScript](https://img.shields.io/badge/TypeScript-blue.svg?style=flat&logo=typescript&logoColor=white)
 
-This app was created following Ubaldo Acosta's lead during his "Universidad Java" masterclass.
-
 Technologies used include:
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
